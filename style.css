@@ -1,3 +1,4 @@
+
 .mycontent{
   background-color: white;
   background-image: url('testimg.png');
@@ -10,6 +11,26 @@
 header.mymain{
   width: 200vw;
 }
-header div.mycontainer{
-  margin-left: 10vw;
+.mycontainer{
+  margin-left: 12.5vw;
+}
+.my1{
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+}
+.my2{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+
+}
+@media screen and (max-width: 630px) {
+  .mycontainer{
+    margin-left: inherit;
+  }
 }
