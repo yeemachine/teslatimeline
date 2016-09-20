@@ -48,11 +48,18 @@ header.mymain{
   }
   header.mymain{
     position: fixed;
+
   }
   .pane-skinny-footer{
     width:200vw;
   }
   .pane-content{
     width: 90vw;
+  }
+  .navblock{
+    display:none;
+  }
+  #hamburger{
+    display: none;
   }
 }
