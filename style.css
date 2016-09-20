@@ -1,0 +1,15 @@
+.mycontent{
+  background-color: white;
+  background-image: url('testimg.png');
+  width: 200vw;
+  height: 80vh;
+}
+.main2{
+  bottom:10px;
+}
+header.mymain{
+  width: 200vw;
+}
+header div.mycontainer{
+  margin-left: 10vw;
+}
