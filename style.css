@@ -1,21 +1,26 @@
 *{
   border-color: transparent;
 }
+html{
+  transition: 1s;
+}
 .mycontent{
   background-color: white;
   /*background-image: url('testimg.png');*/
   background-size: contain;
   background-repeat: no-repeat;
-  width: 200vw;
+  width: 8700px;
   height: 90vh;
   overflow: visible !important;
+  transition: 1s;
+
 }
 .main2{
   bottom:0;
 }
 img{
   margin-top: 5vh;
-  height: 85vh;
+  height: 600px;
   max-width:none;
 }
 header.mymain{
@@ -23,11 +28,14 @@ header.mymain{
   position: fixed;
 
 }
+h2{
+  font-weight: 600;
+}
 .mycontainer{
 }
 .my1{
   position: absolute;
-  left: 700px;
+  left: 730px;
   width: 150px;
   top: 200px;
   z-index: 999;
@@ -35,11 +43,85 @@ header.mymain{
 }
 .my2{
   position: absolute;
-  left: 300px;
+  left: 1030px;
+  width: 150px;
+  top: 400px;
+  z-index: 999;
+  color:#666;
+}
+.my3{
+  position: absolute;
+  left: 2250px;
+  width: 150px;
   top: 200px;
   z-index: 999;
   color:#666;
+}
+.my4{
+  position: absolute;
+  left: 2750px;
+  width: 150px;
+  top: 400px;
+  z-index: 999;
+  color:#666;
+}
+.my5{
+  position: absolute;
+  left: 3350px;
+  width: 150px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+}
+.my6{
+  position: absolute;
+  left: 5500px;
+  width: 200px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+}
+.my7{
+  position: absolute;
+  left: 6050px;
+  width: 150px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+}
+.my8{
+  position: absolute;
+  left: 7200px;
+  width: 375px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+}
 
+
+.my9{
+  position: absolute;
+  left: 7675px;
+  width: 200px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+}
+.my10{
+  position: absolute;
+  left: 8000px;
+  width: 375px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
+}
+.my11{
+  position: absolute;
+  left: 8500px;
+  width: 375px;
+  top: 200px;
+  z-index: 999;
+  color:#666;
 }
 @media screen and (max-width: 630px) {
   .mycontainer{
