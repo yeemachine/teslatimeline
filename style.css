@@ -14,7 +14,9 @@
   bottom:0;
 }
 img{
-  margin-top: 100px;
+  margin-top: 5vh;
+  height: 90vh;
+  max-width:none;
 }
 header.mymain{
   width: 100vw;
@@ -43,8 +45,7 @@ header.mymain{
     margin-left: inherit;
   }
   .mycontent{
-    background-color: white;
-    background-image: url('testimg.png');
+    background-color: black;
     width: 200vw;
     height: 80vh;
     overflow-x: visible !important;
