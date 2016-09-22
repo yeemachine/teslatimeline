@@ -6,6 +6,7 @@ html{
 }
 .mycontent{
   background-color: white;
+  position:absolute;
   /*background-image: url('testimg.png');*/
   background-size: contain;
   background-repeat: no-repeat;
@@ -18,7 +19,7 @@ html{
 .main2{
   bottom:0;
 }
-img{
+.musk{
   margin-top: 5vh;
   height: 600px;
   max-width:none;
