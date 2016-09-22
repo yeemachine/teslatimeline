@@ -1,15 +1,21 @@
-
+*{
+  border-color: transparent;
+}
 .mycontent{
   background-color: white;
-  background-image: url('testimg.png');
+  /*background-image: url('testimg.png');*/
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 200vw;
-  height: 80vh;
-  overflow: scroll !important;
+  height: 90vh;
+  overflow: visible !important;
 }
 .main2{
   bottom:0;
 }
-
+img{
+  margin-top: 100px;
+}
 header.mymain{
   width: 100vw;
   position: fixed;
